@@ -1,0 +1,145 @@
+.bg{
+    
+    background: url(../../../assets/footer.png) ;
+    background-size: cover;  
+    height: 40vh;
+    
+}
+.parint{
+    position: relative;
+}
+.calild{
+    position: absolute;
+    top: 130px;
+    font-size: 14px;
+    color: white;
+}
+.parint2{
+    position: relative;
+}
+.calild2{
+    position: absolute;
+   top: 50px;
+   line-height: 1;
+    font-size: 14px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .parint{
+    position: relative;
+}
+.calild{
+    position: absolute;
+    top: 60px;
+    font-size: 8px;
+    color: white;
+}
+.parint2{
+    position: relative;
+}
+.calild2{
+    position: absolute;
+   top: 20px;
+   line-height: 1;
+    font-size: 8px;
+    color: white;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .parint{
+    position: relative;
+}
+.calild{
+    position: absolute;
+    top: 130px;
+    font-size: 14px;
+    color: white;
+}
+.parint2{
+    position: relative;
+}
+.calild2{
+    position: absolute;
+   top: 50px;
+   line-height: 1;
+    font-size: 14px;
+    color: white;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .parint{
+        position: relative;
+    }
+    .calild{
+        position: absolute;
+        top: 30px;
+        font-size: 14px;
+        color: white;
+    }
+    .parint2{
+        position: relative;
+    }
+    .calild2{
+        position: absolute;
+       top: 10px;
+       line-height: 1;
+        font-size: 14px;
+        color: white;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .parint{
+        position: relative;
+    }
+    .calild{
+        position: absolute;
+        top: 130px;
+        font-size: 14px;
+        color: white;
+    }
+    .parint2{
+        position: relative;
+    }
+    .calild2{
+        position: absolute;
+       top: 50px;
+       line-height: 1;
+        font-size: 14px;
+        color: white;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .parint{
+        position: relative;
+    }
+    .calild{
+        position: absolute;
+        top: 130px;
+        font-size: 14px;
+        color: white;
+    }
+    .parint2{
+        position: relative;
+    }
+    .calild2{
+        position: absolute;
+       top: 50px;
+       line-height: 1;
+        font-size: 14px;
+        color: white;
+    }
+
+}

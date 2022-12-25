@@ -1,0 +1,90 @@
+<section class="mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img
+          class="w-75"
+          src="../../../../assets/Group 22.png"
+          alt=""
+          srcset=""
+        />
+      </div>
+
+      <div class="col">
+        <div class="mt-4 ms-5 mb-5">
+          <h3 class="TextTitle">What We Offer</h3>
+          <p class="w-75 prg">
+            We Offer you different kinds of services that will help you save
+            your time and be more comfortable.
+          </p>
+          <button class="btn w-50 btn1">Our Providers</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid p-5 mb-5" style="background-color: #eef8ff">
+  <div class="row">
+    <div class="col-2 d-flex justify-content-center align-content-center">
+      <button
+        #pageNumber
+        (click)="prev(pageNumber.value)"
+        value="1"
+        class="btn w-25 bi bi-arrow-left-circle"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          fill="currentColor"
+          class="bi bi-caret-left-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="col-3 m-auto" *ngFor="let item of companyPagnation">
+      <div class="card w-75 py-2" style="background-color: #b6e1da">
+        <div class="d-flex justify-content-center">
+          <a routerLink="/details/{{ currentPage }}/{{ item.id }}">
+            <img
+              class="w-100"
+              src="{{ item.logo?.['64px'] }}"
+              alt=""
+              srcset=""
+            />
+          </a>
+        </div>
+
+        <div class="text-center mt-3">
+          <p>{{ item.name.key }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 d-flex justify-content-center align-content-center">
+      <button
+        #pageNumber
+        (click)="next(pageNumber.value)"
+        value="1"
+        class="btn w-25"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="38"
+          fill="currentColor"
+          class="bi bi-caret-right-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>

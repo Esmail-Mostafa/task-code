@@ -1,0 +1,75 @@
+.bgImage{
+    background-image: url(../../../../assets/Path7.png);
+    background-size: cover;  
+    height: 40vh;
+  
+}
+.TextTitle{
+    color:#45c0be;
+    opacity:1;
+    font-size: 30px;
+}
+.prg{
+    color:#2f2e41;
+font-size: 25px;
+}
+.btn{
+background-color: #45c0be;
+border-radius: 30px;
+color:#f5f5f5;
+font-weight: bold;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .bgImage{
+        background-image: url(../../../../assets/Path7.png);
+        background-size: cover;  
+        height: 0vh;
+      
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .bgImage{
+        background-image: url(../../../../assets/Path7.png);
+        background-size: cover;  
+        height: 20vh;
+      
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bgImage{
+        background-image: url(../../../../assets/Path7.png);
+        background-size: cover;  
+        height: 30vh;
+      
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .bgImage{
+        background-image: url(../../../../assets/Path7.png);
+        background-size: cover;  
+        height: 30vh;
+      
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bgImage{
+        background-image: url(../../../../assets/Path7.png);
+        background-size: cover;  
+        height: 40vh;
+      
+    }
+
+}
